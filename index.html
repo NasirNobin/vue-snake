@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Snake</title>
+	<style>
+		body{
+			background: #e1e1e1;
+		}
+
+		div#app {
+		   text-align: center;
+		   margin-top: 100px;
+		}
+
+		.game{
+		   height: 280px;
+		}
+
+		.px {
+			width: 10px;
+			height: 10px;
+			background: #e5e5e5;
+			border-bottom: 1px solid #fff;
+			border-right: 1px solid #fff;
+   			display: inline-block;
+		}
+		.px.col{
+			display: block;
+		}
+
+		.snake{
+			background: #333;
+		}
+
+		.food{
+			background: blue;
+		}
+	</style>
+</head>
+<body>
+	<div id="app">
+		<snake-game></snake-game>
+	</div>
+	<script src="vue.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
